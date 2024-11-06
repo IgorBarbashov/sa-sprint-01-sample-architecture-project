@@ -2,9 +2,17 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.container {
-  font-size: 3rem;
-  margin: auto;
-  max-width: 800px;
-  margin-top: 20px;
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-content {
+  padding: 1vmin;
+  text-align: center;
 }
